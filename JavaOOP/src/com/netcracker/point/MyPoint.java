@@ -62,4 +62,21 @@ public class MyPoint {
                 ", " + y +
                 ')';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MyPoint)) return false;
+        MyPoint point = (MyPoint) o;
+        return point.x == x && point.y == y;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+
+        result = 31 * result + x;
+        result = 31 * result + y;
+        return result;
+    }
 }

@@ -1,5 +1,7 @@
 package com.netcracker.figures;
 
+import java.util.Objects;
+
 public class Rectangle extends Figure{
 
     private float length = 1.0f;
@@ -48,5 +50,22 @@ public class Rectangle extends Figure{
                 "length=" + length +
                 ", width=" + width +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Rectangle)) return false;
+        Rectangle rectangle = (Rectangle) o;
+        return rectangle.length == this.length && rectangle.width == this.width;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+
+        result = 31 * result + (int) width;
+        result = 31 * result + (int) length;
+        return result;
     }
 }

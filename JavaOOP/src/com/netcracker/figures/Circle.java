@@ -1,5 +1,7 @@
 package com.netcracker.figures;
 
+import java.util.Objects;
+
 public class Circle extends Figure {
 
     private double radius;
@@ -52,5 +54,23 @@ public class Circle extends Figure {
                 "radius=" + radius +
                 ", color='" + color + '\'' +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Circle)) return false;
+        Circle circle = (Circle) o;
+        return circle.color.equals(this.color) && circle.radius == this.radius;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+
+        result = 31 * result + (int) radius;
+        result = 31 * result + color.hashCode();
+
+        return result;
     }
 }

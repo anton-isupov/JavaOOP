@@ -12,35 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Book.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/netcracker/book/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-              <folding>
-                <element signature="e#550#551#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#867#868#0" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyPoint.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/netcracker/point/MyPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+            <state relative-caret-position="458">
+              <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
               <folding>
                 <element signature="e#250#251#0" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
@@ -59,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyTriangle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyTriangle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/netcracker/point/MyTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="413">
+              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
               <folding>
                 <element signature="e#534#535#0" expanded="true" />
                 <element signature="e#608#609#0" expanded="true" />
@@ -91,13 +67,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/Circle.java" />
         <option value="$PROJECT_DIR$/src/com/netcracker/figures/Figure.java" />
-        <option value="$PROJECT_DIR$/src/com/netcracker/figures/Circle.java" />
-        <option value="$PROJECT_DIR$/src/com/netcracker/figures/Rectangle.java" />
         <option value="$PROJECT_DIR$/src/com/netcracker/figures/MyTriangle.java" />
         <option value="$PROJECT_DIR$/src/com/netcracker/Employee/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/netcracker/employee/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/netcracker/book/Author.java" />
         <option value="$PROJECT_DIR$/src/com/netcracker/book/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/netcracker/employee/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/netcracker/figures/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/netcracker/figures/Circle.java" />
         <option value="$PROJECT_DIR$/src/com/netcracker/point/MyPoint.java" />
         <option value="$PROJECT_DIR$/src/com/netcracker/point/MyTriangle.java" />
       </list>
@@ -147,7 +123,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,14 +156,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="netcracker" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
+              <item name="figures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaOOP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaOOP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="netcracker" type="462c0819:PsiDirectoryNode" />
+              <item name="point" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -307,11 +291,12 @@
       <updated>1552060976328</updated>
       <workItem from="1552060978643" duration="3525000" />
       <workItem from="1552124695210" duration="164000" />
+      <workItem from="1552719816120" duration="1456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3689000" />
+    <option name="totallyTimeSpent" value="5145000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
@@ -324,8 +309,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -335,8 +320,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -358,22 +343,80 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/netcracker/book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/point/MyTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/point/MyPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/book/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
           <folding>
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
             <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -411,51 +454,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Circle.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/netcracker/figures/Figure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/netcracker/figures/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/netcracker/figures/MyTriangle.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/netcracker/figures/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/netcracker/employee/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <element signature="e#396#397#0" expanded="false" />
-            <element signature="e#421#422#0" expanded="false" />
-            <element signature="e#457#458#0" expanded="false" />
-            <element signature="e#489#490#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-            <element signature="e#555#556#0" expanded="false" />
-            <element signature="e#585#586#0" expanded="false" />
-            <element signature="e#614#615#0" expanded="false" />
-            <element signature="e#650#651#0" expanded="false" />
-            <element signature="e#682#683#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#763#764#0" expanded="false" />
-            <element signature="e#804#805#0" expanded="false" />
-            <element signature="e#840#841#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -465,15 +464,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/netcracker/book/Author.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="375">
+          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/book/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="82" column="56" lean-forward="true" selection-start-line="82" selection-start-column="56" selection-end-line="82" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/employee/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="81" column="22" lean-forward="false" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/figures/Figure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/figures/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="73" column="22" lean-forward="false" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/netcracker/figures/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/netcracker/point/MyPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+        <state relative-caret-position="458">
+          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
           <folding>
             <element signature="e#250#251#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
@@ -493,33 +549,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/netcracker/point/MyTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="413">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
           <folding>
             <element signature="e#534#535#0" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/netcracker/book/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-          <folding>
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -45,4 +45,24 @@ public class MyTriangle {
                 " ]";
 
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MyTriangle)) return false;
+        MyTriangle triangle = (MyTriangle) o;
+        return triangle.v1.equals(v1) && triangle.v2.equals(v2) &&
+                triangle.v3.equals(v3);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+
+        result = 31 * result + v1.hashCode();
+        result = 31 * result + v2.hashCode();
+        result = 31 * result + v3.hashCode();
+
+        return result;
+    }
 }
